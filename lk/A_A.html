@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Arialogic | Pages | Full Width</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+			<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+		</head>
+		<body id="top">
+		<div class="bgded" style="background-image:url('../images/demo/backgrounds/2.png');"> 
+		  <div class="wrapper overlay">
+					<header id="header" class="hoc clear">
+						<nav id="mainav" class="clear"> 
+							<ul class="clear">
+								<li><a href="../index.html">Главная</a></li>
+								<li class="active"><a class="drop" href="#">Личный кабинет</a>
+									<ul>
+										<li><a href="A_A.html">Кабинет Администратора</a></li>
+										<li><a href="A_U.html">Кабинет пользователя</a></li>
+									</ul>
+								</li>
+								<li class="red"><a href="../sign/sign.html">Вход/Регистрация</a></li>
+								<li class="red"><a href="https://www.google.ru">Выход</a></li>
+							</ul>
+						</nav>
+						<div id="logo"> 
+							<h1><a href="index.html">W.I.D.</a></h1>
+							<p>Разработка интерфейсов сайтов</p>
+						</div>
+					</header>
+		  </div>
+		  <div class="wrapper row2">
+			<div id="breadcrumb" class="hoc clear"> 
+			  <ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Кабинет Администратора</a></li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+		<div class="wrapper row3">
+		  <main class="hoc container clear"> 
+			<div class="content"> 
+			<h1>Таблица пользователей</h1>
+			  <div class="scrollable">
+				<table>
+				  <thead>
+					<tr>
+					  <th>Группа 1</th>
+					  <th>Группа 2</th>
+					  <th>Группа 3</th>
+					  <th>Группа 4</th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+					  <td><a href="#">Андрей</a></td>
+					  <td></td>
+					  <td></td>
+					  <td></td>
+					</tr>
+					<tr>
+					  <td>Петр</td>
+					  <td></td>
+					  <td></td>
+					  <td></td>
+					</tr>
+					<tr>
+					  <td>Максим</td>
+					  <td></td>
+					  <td></td>
+					  <td></td>
+					</tr>
+					<tr>
+					  <td>Константин</td>
+					  <td></td>
+					  <td></td>
+					  <td></td>
+					</tr>
+				  </tbody>
+				</table>
+			  </div>
+			  <div id="comments">
+				<h2>Заявки</h2>
+				<ul>
+				  <li>
+					<article>
+					  <header>
+						<figure class="avatar"><img src="../images/demo/av.png" alt=""></figure>
+						<address>
+						By <a href="#">A. Сидоров</a>
+						</address>
+						<time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2020 @08:15:00</time>
+					  </header>
+					  <div class="comcont">
+						<p>Нужно разработать адаптинвый интерфейсов сайта, которым пользуются школьники с телефонов.</p>
+					  </div>
+					  					    <form action="handler.php">
+						   <p><input type="checkbox" name="a" value="1417"> Принять</p>
+						   <p><input type="checkbox" name="a" value="1680" checked> Отклонить</p>
+						</form>
+					</article>
+				  </li>
+				  <li>
+					<article>
+					  <header>
+						<figure class="avatar"><img src="../images/demo/av.png" alt=""></figure>
+						<address>
+						By <a href="#">П. Петров</a>
+						</address>
+						<time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2020 @08:19:00</time>
+					  </header>
+					  <div class="comcont">
+						<p>Нужно разработать адаптинвый интерфейсов сайта, которым в основном пользуются пожилые люди с компьютеров.</p>
+					  </div>
+					  					    <form action="handler.php">
+						   <p><input type="checkbox" name="a" value="1417"> Принять</p>
+						   <p><input type="checkbox" name="a" value="1680" checked> Отклонить</p>
+						</form>
+					</article>
+				  </li>
+				  <li>
+					<article>
+					  <header>
+						<figure class="avatar"><img src="../images/demo/av.png" alt=""></figure>
+						<address>
+						By <a href="#">К. Иванов</a>
+						</address>
+						<time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2020 @08:25:00</time>
+					  </header>
+					  <div class="comcont">
+						<p>Нужно разработать адаптинвый интерфейсов сайта, которым пользуются люди со смарт часов.</p>
+					  </div>
+					    <form action="handler.php">
+						   <p><input type="checkbox" name="a" value="1417"> Принять</p>
+						   <p><input type="checkbox" name="a" value="1680" checked> Отклонить</p>
+						</form>
+					</article>
+				  </li>
+				</ul>
+				<h2>Оставьте свою заявку</h2>
+				<form action="#" method="post">
+				  <div class="one_third first">
+					<label for="name">Имя <span>*</span></label>
+					<input type="text" name="name" id="name" value="" size="22" required>
+				  </div>
+				  <div class="one_third">
+					<label for="email">Mail <span>*</span></label>
+					<input type="email" name="email" id="email" value="" size="22" required>
+				  </div>
+				  <div class="one_third">
+					<label for="url">Тема</label>
+					<input type="url" name="url" id="url" value="" size="22">
+				  </div>
+				  <div class="block clear">
+					<label for="comment">Текст заявки</label>
+					<textarea name="comment" id="comment" cols="25" rows="10"></textarea>
+				  </div>
+				  <div>
+					<input type="submit" name="submit" value="Submit Form">
+					&nbsp;
+					<input type="reset" name="reset" value="Reset Form">
+				  </div>
+				</form>
+			  </div>
+			</div>
+			<div class="clear"></div>
+		  </main>
+		</div>
+			<div class="wrapper row4">
+				<footer id="footer" class="hoc clear"> 
+					<div class="one_quarter first">
+						<h6 class="title">Контакты</h6>
+						<ul class="nospace linklist contact">
+							<li><i class="fa fa-map-marker"></i>
+								<address>
+									Street Name &amp; Number, Town.
+								</address>
+							</li>
+							<li><i class="fa fa-phone"></i> +00 (123) 456 7890<br>
+								+00 (123) 456 7890</li>
+							<li><i class="fa fa-fax"></i> +00 (123) 456 7890</li>
+							<li><i class="fa fa-envelope-o"></i> russvintus@mail.ru</li>
+						</ul>
+					</div>
+					<div class="one_quarter">
+						<h6 class="title">Филиалы</h6>
+						<ul class="nospace linklist">
+							<li><a href="#">Москва</a></li>
+							<li><a href="#">Омск</a></li>
+							<li><a href="#">Санкт-Петербург</a></li>
+							<li><a href="#">Новосибирск</a></li>
+							<li><a href="#">Челябинск</a></li>
+						</ul>
+					</div>
+					<div class="one_quarter">
+						<h6 class="title">Связь с нами онлайн</h6>
+						<p class="btmspace-30">Заполните форму и нажмите кнопку "Связаться", для связи с нами</p>
+						<form method="post" action="#">
+							<fieldset>
+								<legend>Newsletter:</legend>
+								<input class="btmspace-15" type="text" value="" placeholder="Name">
+								<input class="btmspace-15" type="text" value="" placeholder="Email">
+								<button type="submit" value="submit">Связаться</button>
+							</fieldset>
+						</form>
+					</div>
+					<div class="one_quarter">
+						<h6 class="title">Важные новости</h6>
+						<ul class="nospace linklist">
+							<li>
+								<article>
+									<h2 class="nospace font-x1"><a href="#">Обновление сайта</a></h2>
+									<time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2020</time>
+									<p class="nospace">Наш сайт преобразился и готов радовать посетителей&hellip;</p>
+								</article>
+							</li>
+							<li>
+								<article>
+									<h2 class="nospace font-x1"><a href="#">Расширение</a></h2>
+									<time class="font-xs block btmspace-10" datetime="2045-04-05">Thirsday, 5<sup>th</sup> April 2020</time>
+									<p class="nospace">В связи с расширением принимаем на работу&hellip;</p>
+								</article>
+							</li>
+						</ul>
+					</div>
+				</footer>
+			</div>
+			<div class="wrapper row5">
+				<div id="copyright" class="hoc clear"> 
+					<p class="fl_left">2020 Страница создана для практической части</p>
+				</div>
+			</div>
+		<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+					<!-- JS -->
+			<script src="../layout/scripts/jquery.min.js"></script>
+			<script src="../layout/scripts/jquery.backtotop.js"></script>
+			<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+			<script src="../layout/scripts/jquery.placeholder.min.js"></script>
+		</body>
+	</html>
